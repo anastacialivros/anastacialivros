@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!-- saved from url=(0370)https://cfzr9q9bn5j3gy1g.canvacode.com/codelet/eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..-hGjYH67z_Lllutp.e_UMxSb2-cAuPNIyNWtIbFtXHg_ZNDtZtj8XCy_1YJsiRMgSDqFT1tK89ofFzpAkKymSkBw4jacymsfuUoc7SzlxcaiSOV1uoMf2v-J8eJR5eiY22V-mof9vaueg4OlABgiwfIkAlz9ihJsUb_KF7AAPNBAZrhmgtoNddWUhIRD8kDIoO6TYTUDp79RK3Wk.NZaFL1tzrvOypvtvyhlM_g/index.html?pin_id=53c7f4a5c3ae0589ec04d3893f2d41a2 -->
+<html lang="pt-BR" style="height: auto; --vh: 7.68px; overflow: visible; scrollbar-width: none; font-size: clamp(12px, 10.2241px + 0.4228vw, 16px);"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./telemetry_sdk.js.transferir"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnastaciaLivros</title>
+  <script src="./3.4.17"></script>
+  <script src="./lucide.min.js.transferir"></script>
+  <script src="./data_sdk.js.transferir"></script>
+  <style>
+    :root {
+      --yellow: #ffc500;
+      --purple: #69005A;
+      --ink: #2c152a;
+      --paper: #fffaf0;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--ink);
+    }
+
+    .page-shell {
+      width: 100%;
+      min-height: calc(100 * min(var(--vh, 1vh), 1vh));
+      overflow: hidden;
+      position: relative;
+    }
+
+    .paper-grain {
+      position: absolute;
+      inset: 0;
+      opacity: .16;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(105, 0, 90, .28) .65px, transparent .65px);
+      background-size: 9px 9px;
+      mask-image: linear-gradient(to bottom, black, transparent 70%);
+    }
+
+    .hero-orb {
+      position: absolute;
+      width: 29rem;
+      height: 29rem;
+      border-radius: 999px;
+      background: var(--yellow);
+      filter: blur(1px);
+      opacity: .25;
+      right: -11rem;
+      top: 5rem;
+    }
+
+    .marker-line {
+      display: inline-block;
+      position: relative;
+    }
+    .marker-line::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: .08em;
+      width: 100%;
+      height: .36em;
+      background: var(--yellow);
+      z-index: -1;
+      transform: rotate(-1.2deg);
+    }
+
+    .hero-photo-frame {
+      position: relative;
+      border: 10px solid #fffdf7;
+      box-shadow: 18px 18px 0 var(--purple);
+      transform: rotate(2.5deg);
+    }
+
+    .hero-photo-frame::before {
+      content: "ANASTACIA LIVROS";
+      position: absolute;
+      left: -1.15rem;
+      top: 1.4rem;
+      background: var(--yellow);
+      color: var(--purple);
+      font-size: .68rem;
+      font-weight: 700;
+      letter-spacing: .13em;
+      padding: .55rem .8rem;
+      z-index: 2;
+      transform: rotate(-5deg);
+    }
+
+    .contact-card {
+      border-left: 5px solid var(--yellow);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 30px rgba(63, 17, 56, .16);
+    }
+
+    .focus-ring:focus-visible {
+      outline: 3px solid var(--yellow);
+      outline-offset: 4px;
+    }
+
+    .modal-backdrop {
+      background: rgba(42, 13, 38, .72);
+      backdrop-filter: blur(5px);
+    }
+
+    .modal-panel {
+      animation: rise .28s ease-out;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px) scale(.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .reveal {
+      animation: reveal .7s ease both;
+    }
+    .reveal-delay { animation-delay: .12s; }
+    .reveal-delay-2 { animation-delay: .23s; }
+
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <script src="./resizing_sdk.js.transferir" type="text/javascript"></script>
+ <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.relative{position:relative}.inset-0{inset:0px}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mb-9{margin-bottom:2.25rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.aspect-\[4\/5\]{aspect-ratio:4/5}.h-full{height:100%}.min-h-12{min-height:3rem}.min-h-36{min-height:9rem}.w-full{width:100%}.max-w-6xl{max-width:72rem}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.max-w-xl{max-width:36rem}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-14{gap:3.5rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-5{gap:1.25rem}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-t{border-top-width:1px}.border-\[\#69005A\]\/20{border-color:rgb(105 0 90 / 0.2)}.border-\[\#69005A\]\/25{border-color:rgb(105 0 90 / 0.25)}.bg-\[\#ffc500\]\/20{background-color:rgb(255 197 0 / 0.2)}.bg-\[\#fffaf0\]{--tw-bg-opacity:1;background-color:rgb(255 250 240 / var(--tw-bg-opacity, 1))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.object-cover{object-fit:cover}.p-2{padding:0.5rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-7{padding:1.75rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-14{padding-top:3.5rem;padding-bottom:3.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-14{padding-bottom:3.5rem}.pt-12{padding-top:3rem}.pt-6{padding-top:1.5rem}.pt-7{padding-top:1.75rem}.text-left{text-align:left}.text-center{text-align:center}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.uppercase{text-transform:uppercase}.leading-\[\.98\]{line-height:.98}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.leading-tight{line-height:1.25}.tracking-\[0\.16em\]{letter-spacing:0.16em}.tracking-\[0\.18em\]{letter-spacing:0.18em}.tracking-tight{letter-spacing:-0.025em}.tracking-widest{letter-spacing:0.1em}.text-\[\#2c152a\]{--tw-text-opacity:1;color:rgb(44 21 42 / var(--tw-text-opacity, 1))}.text-\[\#4c0041\]{--tw-text-opacity:1;color:rgb(76 0 65 / var(--tw-text-opacity, 1))}.text-red-700{--tw-text-opacity:1;color:rgb(185 28 28 / var(--tw-text-opacity, 1))}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:-translate-y-0\.5:hover{--tw-translate-y:-0.125rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:shadow-lg:hover{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-md:hover{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.disabled\:cursor-wait:disabled{cursor:wait}.disabled\:opacity-70:disabled{opacity:0.7}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}}@media (min-width: 768px){.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:items-end{align-items:flex-end}.md\:p-9{padding:2.25rem}.md\:px-12{padding-left:3rem;padding-right:3rem}.md\:py-16{padding-top:4rem;padding-bottom:4rem}.md\:pb-20{padding-bottom:5rem}.md\:pt-16{padding-top:4rem}.md\:pt-9{padding-top:2.25rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:max-w-none{max-width:none}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:gap-20{gap:5rem}}</style></head>
+ <body data-template-id="__page-root" style="background-image: linear-gradient(rgb(255, 250, 240), rgb(255, 250, 240)) !important; background-clip: border-box !important; background-size: 100vw 100vh !important;">
+  <div class="page-shell">
+   <div class="paper-grain"></div>
+   <div class="hero-orb"></div>
+   <header class="relative z-10 w-full px-6 pt-6 md:px-12 md:pt-9">
+    <nav aria-label="Navegação principal" class="mx-auto flex max-w-6xl items-center justify-between">
+     <a data-template-id="brand-link" class="canva-link focus-ring text-lg font-bold tracking-tight md:text-xl" href="https://ibb.co/mFF5xf5M" target="_blank" rel="noopener noreferrer" data-canva-font-size="1.375rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.375rem !important;">AnastaciaLivros</a> <span data-template-id="header-tag" class="canva-tag rounded-full px-3 py-1 text-xs font-bold tracking-widest" data-canva-font-size="1rem" style="background-image: linear-gradient(rgb(255, 197, 0), rgb(255, 197, 0)) !important; background-clip: border-box !important; white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1rem !important;">comunidade literária</span>
+    </nav>
+   </header>
+   <main class="relative z-10 w-full">
+    <section class="w-full px-6 pb-14 pt-12 md:px-12 md:pb-20 md:pt-16">
+     <div class="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-2 lg:gap-20">
+      <div>
+       <p data-template-id="eyebrow" class="canva-text reveal mb-5 text-sm font-bold uppercase tracking-[0.18em]" data-canva-font-size="1rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1rem !important;">livros para sentir, viver e compartilhar</p>
+       <h1 data-template-id="hero-title" class="canva-text reveal reveal-delay mb-5 max-w-xl font-bold leading-[.98] tracking-tight" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 2rem !important;" data-canva-font-size="2rem">AnastaciaLivros: histórias que ficam com você.</h1>
+       <h2 data-template-id="hero-subtitle" class="canva-text reveal reveal-delay mb-6 max-w-xl font-bold leading-tight" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(44, 21, 42) !important; --canva-color: #2c152aff; caret-color: rgb(44, 21, 42) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.5rem !important;" data-canva-font-size="1.5rem">Encontre sua próxima leitura.</h2>
+       <p data-template-id="hero-description" class="canva-text reveal reveal-delay-2 mb-8 max-w-xl leading-relaxed" data-canva-font-size="1.125rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(78, 57, 75) !important; --canva-color: #4e394bff; caret-color: rgb(78, 57, 75) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 400 !important; font-style: normal !important; font-size: 1.125rem !important;">Descubra best-sellers e clássicos que conquistaram milhares de leitores ao redor do mundo em uma comunidade que está esperando por você.</p><button data-template-id="find-reading-button" class="canva-button focus-ring inline-flex items-center gap-3 rounded-full px-6 py-4 font-bold transition hover:-translate-y-0.5 hover:shadow-lg" type="button" data-open="lead-modal" data-canva-font-size="1.0625rem" style="background-image: linear-gradient(rgb(105, 0, 90), rgb(105, 0, 90)) !important; background-clip: border-box !important; color: rgb(255, 255, 255) !important; --canva-color: #ffffffff; caret-color: rgb(255, 255, 255) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.0625rem !important;"> <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg> </button>
+      </div>
+      <div class="mx-auto w-full max-w-md lg:max-w-none">
+       <div class="hero-photo-frame aspect-[4/5] overflow-hidden">
+        <img data-template-id="hero-reading-image" class="canva-image h-full w-full object-cover" loading="eager" alt="Logomarca AnastaciaLivros" src="./Anastacia-removebg-preview.png">
+       </div>
+      </div>
+     </div>
+    </section>
+    <section data-template-id="contact-section" class="canva-section w-full px-6 py-14 md:px-12 md:py-16" style="background-image: linear-gradient(rgb(105, 0, 90), rgb(105, 0, 90)) !important; background-clip: border-box !important;">
+     <div class="mx-auto max-w-6xl">
+      <div class="mb-9 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+       <div>
+        <p data-template-id="contact-kicker" class="canva-text mb-2 text-sm font-bold uppercase tracking-[0.16em]" data-canva-font-size="1rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(255, 197, 0) !important; --canva-color: #ffc500ff; caret-color: rgb(255, 197, 0) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1rem !important;">vem encontrar</p>
+        <h2 data-template-id="contact-title" class="canva-text font-bold leading-tight" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(255, 255, 255) !important; --canva-color: #ffffffff; caret-color: rgb(255, 255, 255) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.5rem !important;" data-canva-font-size="1.5rem">Escolha o seu próximo capítulo.</h2>
+       </div>
+       <p data-template-id="contact-helper" class="canva-text max-w-sm leading-relaxed" data-canva-font-size="1rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(247, 223, 243) !important; --canva-color: #f7dff3ff; caret-color: rgb(247, 223, 243) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 400 !important; font-style: normal !important; font-size: 1rem !important;">Conteúdos, indicações e conversas para quem sempre tem uma história por perto.</p>
+      </div>
+      <div class="grid gap-4 md:grid-cols-3">
+       <button data-template-id="guide-button" class="canva-button contact-card focus-ring inline-flex min-h-12 items-center justify-center gap-3 rounded-full px-6 py-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg" type="button" data-open="lead-modal" data-canva-font-size="1.0625rem" style="background-image: linear-gradient(rgb(255, 197, 0), rgb(255, 197, 0)) !important; background-clip: border-box !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.0625rem !important;"> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="book-open" aria-hidden="true" class="lucide lucide-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg> <span class="font-bold leading-snug"></span> </button> <a data-template-id="instagram-button" class="canva-button contact-card focus-ring flex min-h-36 flex-col items-start justify-between rounded-2xl p-6 text-left shadow-sm" href="https://www.instagram.com/anastacialivros?igsh=dnIycTZ4anhuOHM3&amp;utm_source=qr" target="_blank" rel="noopener noreferrer" style="background-image: linear-gradient(rgb(255, 250, 240), rgb(255, 250, 240)) !important; background-clip: border-box !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important;"> <span class="flex items-center gap-3">
+         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r=".75" fill="currentColor" stroke="none"></circle>
+         </svg><span data-template-id="instagram-handle" class="canva-text font-bold" data-canva-font-size="1.0625rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.0625rem !important;">@anastacialivros</span></span> </a> <a data-template-id="tiktok-button" class="canva-button contact-card focus-ring flex min-h-36 flex-col items-start justify-between rounded-2xl p-6 text-left shadow-sm" href="https://www.tiktok.com/@anastacialivros?_r=1&amp;_t=ZS-98nwDDucBb3" target="_blank" rel="noopener noreferrer" style="background-image: linear-gradient(rgb(255, 250, 240), rgb(255, 250, 240)) !important; background-clip: border-box !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important;"> <span class="flex items-center gap-3">
+         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M15.7 3c.3 1.9 1.4 3.3 3.3 3.7v3a7.2 7.2 0 0 1-3.3-1v6.1a5.2 5.2 0 1 1-4.5-5.1v3.1a2.2 2.2 0 1 0 1.5 2.1V3h3z"></path>
+         </svg><span data-template-id="tiktok-handle" class="canva-text font-bold" data-canva-font-size="1.0625rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.0625rem !important;">@anastacialivros</span></span> </a>
+      </div>
+     </div>
+    </section>
+   </main>
+   <footer class="relative z-10 w-full px-6 py-8 md:px-12">
+    <div class="mx-auto flex max-w-6xl flex-col items-start justify-between gap-5 border-t border-[#69005A]/20 pt-7 sm:flex-row sm:items-center">
+     <p data-template-id="footer-copy" class="canva-text text-sm" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 400 !important; font-style: normal !important; font-size: 0.875rem !important;" data-canva-font-size="0.875rem"><canva-span style="color: initial">©</canva-span> AnastaciaLivros · Um cantinho para leitores.</p><button data-template-id="about-button" class="canva-button focus-ring inline-flex items-center gap-2 rounded-full px-5 py-2.5 font-bold transition hover:shadow-md" type="button" data-open="about-modal" data-canva-font-size="0.9375rem" style="background-image: linear-gradient(rgb(255, 197, 0), rgb(255, 197, 0)) !important; background-clip: border-box !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 0.9375rem !important;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="heart" aria-hidden="true" class="lucide lucide-heart"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg> </button>
+    </div>
+   </footer>
+  </div>
+  <div id="lead-modal" class="modal-backdrop fixed inset-0 z-50 items-center justify-center p-5 hidden" role="dialog" aria-modal="true" aria-labelledby="lead-modal-title">
+   <div class="modal-panel w-full max-w-md rounded-3xl bg-[#fffaf0] p-7 shadow-2xl md:p-9">
+    <div class="mb-6 flex items-start justify-between gap-5">
+     <div>
+      <p data-template-id="form-kicker" class="canva-text mb-2 text-xs font-bold uppercase tracking-[0.16em]" data-canva-font-size="1rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1rem !important;">sua jornada começa aqui</p>
+      <h2 data-template-id="form-title" class="canva-text font-bold leading-tight" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.5rem !important;" data-canva-font-size="1.5rem">Vamos encontrar sua próxima leitura?</h2>
+     </div><button data-template-id="form-close-button" class="canva-button focus-ring rounded-full p-2" type="button" data-close="" aria-label="Fechar formulário" style="background-image: linear-gradient(rgb(255, 197, 0), rgb(255, 197, 0)) !important; background-clip: border-box !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important;"> <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg> </button>
+    </div>
+    <p data-template-id="form-description" class="canva-text mb-6 leading-relaxed" data-canva-font-size="1rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(78, 57, 75) !important; --canva-color: #4e394bff; caret-color: rgb(78, 57, 75) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 400 !important; font-style: normal !important; font-size: 1rem !important;">Deixe seus dados para receber novidades e dar o primeiro passo na sua próxima grande história.</p>
+    <form id="lead-form" novalidate="">
+     <div class="mb-4">
+      <label data-template-id="name-label" class="canva-text mb-2 block text-sm font-bold" for="lead-name" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1rem !important;" data-canva-font-size="1rem">Seu nome</label> <input id="lead-name" class="focus-ring w-full rounded-xl border border-[#69005A]/25 bg-white px-4 py-3 text-[#2c152a]" type="text" autocomplete="name" required="">
+     </div>
+     <div class="mb-5">
+      <label data-template-id="email-label" class="canva-text mb-2 block text-sm font-bold" for="lead-email" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1rem !important;" data-canva-font-size="1rem">Seu e-mail</label> <input id="lead-email" class="focus-ring w-full rounded-xl border border-[#69005A]/25 bg-white px-4 py-3 text-[#2c152a]" type="email" autocomplete="email" required="">
+     </div>
+     <p id="form-error" class="mb-4 hidden rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700" role="alert"></p>
+     <p id="form-success" class="mb-4 hidden rounded-lg bg-[#ffc500]/20 px-3 py-3 text-sm font-bold text-[#4c0041]" role="status"></p><button data-template-id="submit-button" class="canva-button focus-ring inline-flex w-full items-center justify-center gap-2 rounded-xl px-5 py-3.5 font-bold transition hover:shadow-lg disabled:cursor-wait disabled:opacity-70" type="submit" data-canva-font-size="1rem" style="background-image: linear-gradient(rgb(105, 0, 90), rgb(105, 0, 90)) !important; background-clip: border-box !important; color: rgb(255, 255, 255) !important; --canva-color: #ffffffff; caret-color: rgb(255, 255, 255) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1rem !important;"> <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="send" aria-hidden="true" class="lucide lucide-send"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="M22 2 11 13"></path></svg> </button>
+    </form>
+   </div>
+  </div>
+  <div id="about-modal" class="modal-backdrop fixed inset-0 z-50 items-center justify-center p-5 hidden" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
+   <article class="modal-panel w-full max-w-lg rounded-3xl bg-[#fffaf0] p-7 shadow-2xl md:p-9">
+    <div class="mb-6 flex items-start justify-between gap-5">
+     <div>
+      <p data-template-id="about-kicker" class="canva-text mb-2 text-xs font-bold uppercase tracking-[0.16em]" data-canva-font-size="1rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1rem !important;">prazer, eu sou a Tacia</p>
+      <h2 id="about-modal-title" data-template-id="about-title" class="canva-text font-bold" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 700 !important; font-style: normal !important; font-size: 1.5rem !important;" data-canva-font-size="1.5rem">Sobre Mim</h2>
+     </div><button data-template-id="about-close-button" class="canva-button focus-ring rounded-full p-2" type="button" data-close="" aria-label="Fechar sobre mim" style="background-image: linear-gradient(rgb(255, 197, 0), rgb(255, 197, 0)) !important; background-clip: border-box !important; color: rgb(105, 0, 90) !important; --canva-color: #69005aff; caret-color: rgb(105, 0, 90) !important;"> <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg> </button>
+    </div>
+    <p data-template-id="about-description" class="canva-text leading-relaxed" data-canva-font-size="1.0625rem" style="white-space: pre-wrap !important; overflow-wrap: normal !important; line-height: normal !important; color: rgb(78, 57, 75) !important; --canva-color: #4e394bff; caret-color: rgb(78, 57, 75) !important; font-family: YAGyDvJ_4Ts_0, auto !important; font-weight: 400 !important; font-style: normal !important; font-size: 1.0625rem !important;">Oi, eu sou a Tacia. Sou apaixonada por livros, histórias e por tudo que a literatura desperta em nós. Criei o Anastacia Livros como um espaço para compartilhar minhas descobertas, conversar sobre leituras e trocar experiências com pessoas que também encontram nos livros um lugar especial. Sejam bem-vindos ao meu cantinho literário.</p>
+   </article>
+  </div>
+  <script src="./editing_sdk.js.transferir"></script>
+  <script>
+    let recordCount = 0;
+    let activeModal = null;
+
+    function openModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (!modal) return;
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+      activeModal = modal;
+      const firstControl = modal.querySelector("input, button");
+      if (firstControl) firstControl.focus();
+    }
+
+    function closeModal(modal) {
+      if (!modal) return;
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+      activeModal = null;
+    }
+
+    const dataHandler = {
+      onDataChanged(data) {
+        recordCount = data.length;
+      }
+    };
+
+    async function initializeData() {
+      const initResult = await window.dataSdk.init(dataHandler);
+      if (!initResult.isOk) {
+        document.getElementById("form-error").textContent = "Não foi possível preparar o cadastro agora. Tente novamente em instantes.";
+        document.getElementById("form-error").classList.remove("hidden");
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      lucide.createIcons();
+      initializeData();
+
+      document.querySelectorAll("[data-open]").forEach((button) => {
+        button.addEventListener("click", () => openModal(button.dataset.open));
+      });
+
+      document.querySelectorAll("[data-close]").forEach((button) => {
+        button.addEventListener("click", () => closeModal(button.closest('[role="dialog"]')));
+      });
+
+      document.querySelectorAll('[role="dialog"]').forEach((modal) => {
+        modal.addEventListener("click", (event) => {
+          if (event.target === modal) closeModal(modal);
+        });
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && activeModal) closeModal(activeModal);
+      });
+
+      document.getElementById("lead-form").addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const form = event.currentTarget;
+        const name = document.getElementById("lead-name").value.trim();
+        const email = document.getElementById("lead-email").value.trim();
+        const error = document.getElementById("form-error");
+        const success = document.getElementById("form-success");
+        const submitButton = form.querySelector('button[type="submit"]');
+
+        error.classList.add("hidden");
+        success.classList.add("hidden");
+
+        if (!name || !email) {
+          error.textContent = "Preencha seu nome e e-mail para continuar.";
+          error.classList.remove("hidden");
+          return;
+        }
+
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          error.textContent = "Informe um e-mail válido.";
+          error.classList.remove("hidden");
+          return;
+        }
+
+        if (recordCount >= 999) {
+          error.textContent = "A lista de interesse atingiu o limite. Tente novamente mais tarde.";
+          error.classList.remove("hidden");
+          return;
+        }
+
+        submitButton.disabled = true;
+
+        const result = await window.dataSdk.create({
+          name: name,
+          email: email,
+          created_at: new Date().toISOString()
+        });
+
+        submitButton.disabled = false;
+
+        if (result.isOk) {
+          success.textContent = "Pronto! Seu interesse foi registrado. Obrigada por fazer parte desta comunidade.";
+          success.classList.remove("hidden");
+          form.reset();
+        } else {
+          error.textContent = "Não conseguimos registrar seu cadastro agora. Por favor, tente novamente.";
+          error.classList.remove("hidden");
+        }
+      });
+    });
+  </script>
+ 
+<canva-element-overlay style="position: fixed; z-index: 2147483647; pointer-events: none;"><template shadowrootmode="open"><style>h1, h2, h3, h4, h5, h6, p, blockquote { margin: 0; font-weight: inherit; }</style><div style="position: fixed; pointer-events: none; inset: 0px;"></div></template></canva-element-overlay></body></html>
